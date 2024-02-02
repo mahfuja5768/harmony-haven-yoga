@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import client1 from "../../assets/images/c1.jpg";
 import client2 from "../../assets/images/c2.jpg";
@@ -10,16 +9,14 @@ const Client = () => {
   return (
     <Container>
       <SectionTitle heading={"Testimonials"} />
-      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-8">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-6 gap-24 pt-16">
         <div className=" flex flex-col  relative justify-center items-center bg-secondary p-5 rounded-md">
           <Image
             src={client1}
-            className=" absolute -top-16 w-32 h-32 rounded-full mx-auto"
+            className=" -mt-24 w-32 h-32 rounded-full mx-auto"
             alt="client1"
           />
-          <h2 className="text-2xl mt-16 font-medium my-2 text-primary">
-            Sarah M.
-          </h2>
+          <h2 className="text-2xl font-medium my-2 text-primary">Sarah M.</h2>
           <p className=" mx-auto text-justify text-gray">
             Joining Nadus Yoga Studio has been a game-changer for me. The
             personalized guidance and nurturing environment have helped me find
@@ -30,12 +27,10 @@ const Client = () => {
         <div className=" flex flex-col  relative justify-center items-center  bg-secondary p-5 rounded-md">
           <Image
             src={client2}
-            className=" absolute -top-16  w-32 h-32 rounded-full mx-auto"
+            className=" -mt-24  w-32 h-32 rounded-full mx-auto"
             alt="client2"
           />
-          <h2 className="text-2xl mt-16 font-medium my-2 text-primary">
-            Alexa P
-          </h2>
+          <h2 className="text-2xl  font-medium my-2 text-primary">Alexa P</h2>
           <p className=" mx-auto text-justify text-gray">
             I have tried various yoga studios, but none compare to the authentic
             and welcoming atmosphere here. The instructors are not just experts
@@ -46,12 +41,10 @@ const Client = () => {
         <div className=" flex flex-col  relative justify-center items-center  bg-secondary p-5 rounded-md">
           <Image
             src={client3}
-            className=" absolute -top-12 w-32 h-32 rounded-full mx-auto"
+            className="-mt-24 w-32 h-32 rounded-full mx-auto"
             alt="client2"
           />
-          <h2 className="text-2xl mt-16 font-medium my-2 text-primary">
-            Emily R.
-          </h2>
+          <h2 className="text-2xl  font-medium my-2 text-primary">Emily R.</h2>
           <p className=" mx-auto text-justify text-gray">
             As a beginner, I was a bit apprehensive, but the supportive
             community at Nadus Studio made me feel right at home. The positive

@@ -25,7 +25,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="max-w-[1240px] px-4 mx-auto rounded-full  shadow-2xl fixed left-0 z-10 mb-12 right-0 navbar bg-primary text-white">
+    <div className="max-w-[1240px] px-4 mx-auto rounded-full py-4 shadow-2xl fixed left-0 z-10 mb-12 right-0 navbar bg-primary text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -50,7 +50,7 @@ const Navbar = () => {
           >
             {navItems.map((item) => (
               <Link key={item} href={item.pathName}>
-                <button className="text-black">{item.route}</button>
+                <button className="text-black"> {item.route} </button>
               </Link>
             ))}
           </ul>
@@ -62,7 +62,7 @@ const Navbar = () => {
           {navItems.map((item) => (
             <Link key={item} href={item.pathName}>
               <button className="text-white mr-6 text-medium">
-                {item.route}
+                | {item.route} |
               </button>
             </Link>
           ))}

@@ -4,11 +4,13 @@ import Banner from "@/components/ui/Banner";
 import Certificate from "@/components/ui/Certificate";
 import Client from "@/components/ui/Client";
 import NewsLetter from "@/components/ui/NewsLetter";
+import Schedule from "@/components/ui/Schedule";
 export default function HomePage() {
   return (
     <div className="">
       <Navbar />
       <Banner />
+      <Schedule />
       <Certificate />
       <Client />
       <NewsLetter />
