@@ -1,4 +1,4 @@
-import { testimonialData } from "@/utils/TestimonialsData";
+
 import Image from "next/image";
 import client1 from "../../assets/images/c1.jpg";
 import client2 from "../../assets/images/c2.jpg";
@@ -7,8 +7,6 @@ import Container from "../shared/Container";
 import SectionTitle from "../shared/SectionTitle";
 
 const Client = () => {
-  const data = testimonialData;
-  // console.log(data);
   return (
     <Container>
       <SectionTitle heading={"Testimonials"} />
@@ -23,7 +21,7 @@ const Client = () => {
             Sarah M.
           </h2>
           <p className=" mx-auto text-justify text-gray">
-            Joining Nadu's Yoga Studio has been a game-changer for me. The
+            Joining Nadus Yoga Studio has been a game-changer for me. The
             personalized guidance and nurturing environment have helped me find
             not only physical strength but also inner peace. Grateful for this
             transformative journey!
@@ -39,7 +37,7 @@ const Client = () => {
             Alexa P
           </h2>
           <p className=" mx-auto text-justify text-gray">
-            I've tried various yoga studios, but none compare to the authentic
+            I have tried various yoga studios, but none compare to the authentic
             and welcoming atmosphere here. The instructors are not just experts
             but compassionate guides. Every class feels like a step towards a
             healthier, happier me.
@@ -56,7 +54,7 @@ const Client = () => {
           </h2>
           <p className=" mx-auto text-justify text-gray">
             As a beginner, I was a bit apprehensive, but the supportive
-            community at Nadu's Studio made me feel right at home. The positive
+            community at Nadus Studio made me feel right at home. The positive
             energy is contagious, and I look forward to each session with
             excitement.
           </p>
