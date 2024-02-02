@@ -12,7 +12,7 @@ const NewsLetter = () => {
         <h3 className=" text-primary text-sm my-1">
           Stay Informed, Stay Inspired
         </h3>
-        <div className="flex justify-center my-5 items-center gap-2">
+        <div className="flex justify-center md:flex-row flex-col my-5 items-center gap-2">
           <input
             placeholder="Your Email"
             className="py-3 rounded-md px-5 outline-4 outline-primary"

@@ -37,3 +37,47 @@ const Banner = () => {
 };
 
 export default Banner;
+
+
+// import Link from "next/link";
+// import { FaBars } from "react-icons/fa";
+// import CustomButton from "./CustomButton";
+
+// const Navbar = () => {
+//   return (
+//     <nav className="max-w-[1240px] mx-auto px-12 rounded-full mb-12 shadow-2xl h-18 lg:h-[12vh] sticky top-0 z-50 bg-primary text-textBlue">
+//       <div className="max-w-[1240px] mx-auto h-full py-1 flex items-center justify-between">
+//         <Link href="/" className="text-white text-lg font-bold">
+//           Harmony-Haven-Yoga
+//         </Link>
+
+//         <div className="hidden md:flex space-x-4">
+//           <Link href="/about" className="text-white text-lg font-medium">
+//             Home
+//           </Link>
+//           <Link href="/about" className="text-white text-lg font-medium">
+//             Courses
+//           </Link>
+//           <Link href="/contact" className="text-white text-lg font-medium">
+//             Meditations
+//           </Link>
+//           <Link href="/contact" className="text-white text-lg font-medium">
+//             Articles
+//           </Link>
+//         </div>
+
+//         <div className="md:hidden">
+//           <FaBars className="text-white text-2xl cursor-pointer" />
+//         </div>
+
+//         <div className="hidden md:flex space-x-4">
+//           <button className="border-4 bg-white  border-transparent px-5 py-1 hover:bg-secondary  font-semibold hover:text-white rounded-md transition-all duration-300">
+//             Book Now
+//           </button>
+//         </div>
+//       </div>
+//     </nav>
+//   );
+// };
+
+// export default Navbar;
