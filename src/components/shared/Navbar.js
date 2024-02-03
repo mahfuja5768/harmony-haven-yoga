@@ -69,7 +69,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end hidden lg:flex">
-        <button className="border-4 bg-white  border-transparent px-5 py-1 text-primary hover:bg-secondary  font-semibold hover:text-white rounded-md transition-all duration-300">
+        <button className="border-4 bg-white rounded-full border-transparent px-5 py-1 text-primary hover:bg-secondary  font-semibold hover:text-white me-5 transition-all duration-300">
           Book Now
         </button>
       </div>

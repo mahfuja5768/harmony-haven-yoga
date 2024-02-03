@@ -2,7 +2,7 @@ import Container from "../shared/Container";
 
 const Schedule = () => {
   return (
-   <div className="border-t-2 ">
+   <div className="">
      <Container>
       <div className="grid grid-cols-1 md:grid-cols-3 border-2 rounded-lg border-secondary p-6 justify-center items-center">
         <div>
