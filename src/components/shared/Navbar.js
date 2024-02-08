@@ -1,4 +1,6 @@
 import Link from "next/link";
+import logo from "../../assets/images/logo.png";
+import Image from "next/image";
 
 const Navbar = () => {
   const navItems = [
@@ -55,7 +57,10 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Harmony-Haven-Yoga</a>
+        <a className="btn btn-ghost text-xl flex justify-center">
+          <Image src={logo} alt="logo"  className=" bg-white rounded-full h-12 w-12"/>
+          <span>Yogi</span>
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
