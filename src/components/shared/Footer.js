@@ -28,33 +28,35 @@ const Footer = () => {
   ];
 
   return (
-    <div className=" relative bg-primary pt-28 rounded-t-full">
+    <div className="text-center relative bg-primary pt-28 rounded-t-full">
       <div className="max-w-[1240px] mx-auto text-white">
-        <div className="">
-          <div className=" flex flex-coli xl:flex-row gap-8 xl:justify-around justify-center items-center border-b-2 border-r-4 p-5 border-dashed">
-          <div className="">
-              <h2 className="text-3xl font-medium mb-5 flex items-center gap-3">
+        <div className=" ">
+          <div className=" flex flex-col xl:flex-row gap-8 xl:justify-around justify-center items-center border-b-2 border-r-4 p-5 border-dashed">
+            <div className="">
+              <h2 className="text-3xl font-medium mb-5 justify-center flex items-center gap-3">
                 <span>Yogi</span>
-                <Image src={logo} alt="logo"  className=" bg-white rounded-full h-12 w-12"/>
+                <Image
+                  src={logo}
+                  alt="logo"
+                  className=" bg-white rounded-full h-12 w-12"
+                />
               </h2>
               <h3>5123 Market St. #22B Charlottesville, California 44635</h3>
               <p>Phn - +999333222</p>
               <p>email - harmonyHavenYoga@gamil.com</p>
             </div>
-          <div className="flex flex-col">
+            <div className="flex flex-col">
               <h6 className="text-xl font-semibold">You Can Learn</h6>
               <a className="link link-hover">Yoga Practices and Techniques</a>
               <a className="link link-hover">Community Building</a>
               <a className="link link-hover">Personalized Guidance</a>
               <a className="link link-hover">Engagement and Inspiration</a>
             </div>
-          
-           
           </div>
 
-          <div className="flex gap-12 xl:justify-around justify-center items-center border-t-2 border-l-4 p-5 border-dashed">
+          <div className="flex gap-12 xl:justify-around justify-center items-center border-t-2 border-l-4 p-5 border-dashed text-start">
             <div>
-              <h6 className="text-xl font-semibold">Links</h6>
+              <h6 className="text-2xl font-bold">Links</h6>
               {navItems.map((item) => (
                 <Link
                   key={item}
@@ -67,7 +69,7 @@ const Footer = () => {
                 </Link>
               ))}
             </div>
-            <div className="mb-4 md:mb-0">
+            <div className="mb-4 md:mb-0 text-center">
               <h2 className="text-2xl font-bold">Nadus Yoga Studio</h2>
               <p className="text-sm">Transforming Lives, One Pose at a Time</p>
             </div>

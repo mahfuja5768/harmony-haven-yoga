@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div className="max-w-[1240px] px-4 mx-auto rounded-full py-4 shadow-2xl fixed left-0 z-10 mb-12 right-0 navbar bg-primary text-white">
-      <div className="navbar-start">
+      <div className="navbar-start ">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -57,8 +57,12 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl flex justify-center">
-          <Image src={logo} alt="logo"  className=" bg-white rounded-full h-12 w-12"/>
+        <a className="btn hidden md:flex btn-ghost text-xl  justify-center">
+          <Image
+            src={logo}
+            alt="logo"
+            className=" bg-white rounded-full h-12 w-12"
+          />
           <span>Yogi</span>
         </a>
       </div>
@@ -73,8 +77,16 @@ const Navbar = () => {
           ))}
         </ul>
       </div>
-      <div className="navbar-end hidden lg:flex">
-        <button className="border-4 bg-white rounded-full border-transparent px-5 py-1 text-primary hover:bg-secondary  font-semibold hover:text-white me-5 transition-all duration-300">
+      <div className="navbar-end ">
+        <a className="btn flex md:hidden btn-ghost text-xl  justify-center">
+          <Image
+            src={logo}
+            alt="logo"
+            className=" bg-white rounded-full h-12 w-12"
+          />
+          <span>Yogi</span>
+        </a>
+        <button className="border-4 hidden md:flex bg-white rounded-full border-transparent px-5 py-1 text-primary hover:bg-secondary  font-semibold hover:text-white me-5 transition-all duration-300">
           Book Now
         </button>
       </div>
