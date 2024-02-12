@@ -2,9 +2,7 @@ import Image from "next/image";
 import bannerImg from "../../assets/images/yoga-coach.png";
 import Container from "../shared/Container";
 import CustomButton from "../shared/CustomButton";
-import { FaFacebookF, FaLinkedin, FaTwitter , FaDribbble, FaInstagram , } from "react-icons/fa";
-import { IoLogoWhatsapp } from "react-icons/io";
-
+import { FaFacebookF, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Banner = () => {
   return (

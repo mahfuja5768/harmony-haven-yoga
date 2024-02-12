@@ -50,8 +50,8 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
-            {navItems.map((item) => (
-              <Link key={item} href={item.pathName}>
+            {navItems.map((item, idx) => (
+              <Link key={idx} href={item.pathName}>
                 <button className="text-black"> {item.route} </button>
               </Link>
             ))}

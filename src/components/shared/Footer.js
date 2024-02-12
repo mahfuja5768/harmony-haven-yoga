@@ -57,9 +57,9 @@ const Footer = () => {
           <div className="flex gap-12 xl:justify-around justify-center items-center border-t-2 border-l-4 p-5 border-dashed text-start">
             <div>
               <h6 className="text-2xl font-bold">Links</h6>
-              {navItems.map((item) => (
+              {navItems.map((item, idx) => (
                 <Link
-                  key={item}
+                  key={idx}
                   href={item.pathName}
                   className="flex  mx-auto items-center font-medium gap-6"
                 >
